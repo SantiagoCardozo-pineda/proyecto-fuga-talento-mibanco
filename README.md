@@ -18,6 +18,9 @@ Proyecto realizado por:
 - 📄 Informe completo: [`TF_Grupo14_011024.pdf`](./TF_Grupo14_011024.pdf)
 - 🧼 Código de limpieza de datos: [Ver en Google Colab](https://colab.research.google.com/drive/1HekPqOBp4P-IEK6Hj9t_b80Lctqn1Roh?usp=sharing)
 - 🤖 Código del modelo predictivo: [Ver en Google Colab](https://colab.research.google.com/drive/1sA9j-ZF9kV_vJltVYfxCofI8RRD83WIm?usp=drive_link)
+- ⚠️ Por razones de confidencialidad, las bases de datos originales utilizadas en este proyecto no están disponibles públicamente.  
+Sin embargo, puedes revisar el informe completo y el código del modelo en los enlaces proporcionados.
+
 
 ---
 
