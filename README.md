@@ -33,19 +33,33 @@ Sin embargo, puedes revisar el informe completo y el código del modelo en los e
 
 ---
 
-## 📈 Resultados
-- Precisión del modelo (AUC): **0.87**
-- Técnicas aplicadas: Regresión logística, XGBoost, SHAP values, Feature Selection
-- Variables clave identificadas: Rango salarial, división, tipo de contrato, tiempo en el puesto
+## 📊 Resultados del modelo
+
+- Se utilizó un conjunto de datos de más de **600.000 registros**, depurado a **2.249 registros únicos relevantes** de colaboradores del área tecnológica.
+- Se aplicaron modelos de **Regresión Logística** y **XGBoost**, alcanzando una **precisión AUC de 0.87**, demostrando una capacidad sólida para predecir la fuga de talento sin sobreajuste.
+- El modelo identificó correctamente al **80% de los empleados cesados** en la base de prueba.
+- Las variables con mayor influencia fueron:
+  - Rango salarial
+  - División
+  - Tipo de contrato
+  - Tiempo en el puesto
+- Se calculó la **rentabilidad individual** de cada empleado, identificando casos con alto valor estratégico para priorizar retención.
 
 ---
 
-## 🚀 Conclusión
-Este proyecto permitió predecir la probabilidad de fuga de empleados clave y detectar patrones de rentabilidad. Se proponen estrategias específicas de retención, priorizando a empleados altamente rentables con riesgo de salida.
+## ✅ Conclusiones
+
+- La **rotación de talento digital** es un problema real y crítico para empresas financieras como MiBanco, que afecta productividad, continuidad y costos.
+- El modelo permite a RR.HH. **anticipar salidas** y actuar con estrategias de retención enfocadas en colaboradores clave.
+- De los casos identificados como potenciales fugas, solo **14 empleados** resultaron ser altamente rentables, lo que permite **focalizar recursos** con inteligencia.
+- El análisis demuestra que incluso con datos limitados, el **machine learning puede aportar insights accionables** a la gestión del talento humano.
 
 ---
 
-## 🧩 Próximos pasos
-- Expandir la base de datos con más variables (promociones, proyectos, bonificaciones)
-- Desarrollar dashboard interactivo para visualización en tiempo real
-- Llevar el modelo a producción como herramienta de RR.HH.
+## 🔍 Recomendaciones futuras
+
+- Integrar el modelo a sistemas de RR.HH. para monitoreo continuo y decisiones en tiempo real.
+- Incluir nuevas variables como satisfacción laboral, desempeño y evolución salarial.
+- Evaluar modelos adicionales (Random Forest, Redes Neuronales) si se amplía la base de datos.
+- Desarrollar dashboards visuales con Power BI para facilitar el uso del modelo por parte de áreas no técnicas.
+
